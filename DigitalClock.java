@@ -14,8 +14,9 @@ public class DigitalClock {
 
 	static void display() {
 		// create window for clock
-		JFrame clockFrame = new JFrame("Digital Clock");
+		JFrame clockFrame = new JFrame("Don's Digital Clock");
 		clockFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 		// create label to print time
 		JLabel timeLabel = new JLabel("", SwingConstants.CENTER);
 		timeLabel.setPreferredSize(new Dimension(400, 100));
